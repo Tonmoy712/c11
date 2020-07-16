@@ -1,0 +1,82 @@
+@media(max-width: 1199px){
+    header h1 {
+        font-size: 50px;
+    }
+    .books-section .book h3 {
+        font-size: 24px;
+    }
+}
+
+
+@media(max-width: 991px){
+    .navbar .navbar-nav {
+        flex-direction: row;
+        -ms-flex-direction: row;
+        justify-content: center;
+    }
+    header h1 {
+        font-size: 38px;
+    }
+    p {
+        font-size: 17px;
+    }
+    .books-section .book img {
+        height: 75px;
+    }
+    .books-section .book h3 {
+        font-size: 20px;
+    }
+    
+    .courses-section .course .card-body .card-title {
+        font-size: 18px;
+    }
+    .course .btn{
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+}
+@media(max-width: 767px){
+    .navbar .navbar-nav {
+        flex-direction: column;
+        -ms-flex-direction: column;
+        justify-content: center;
+    }
+    header {
+        text-align: center;
+    }
+    header h1 {
+    font-size: 32px;
+    }
+    header .col-md img{
+        width: 350px;
+        margin-top: 30px;
+    }
+    
+    .books-section .book {
+        margin-bottom: 30px;
+    }
+    .course{
+        margin-bottom: 30px;
+    }
+    .testimonial{
+        text-align: center;
+    }
+
+}
+
+
+@media(max-width: 575px){
+    header .navbar-brand img {
+        max-width: 150px;
+    }
+    .books-section .book {
+        margin-bottom: 30px;
+    }
+    footer{
+        text-align: center;
+    }
+    footer h3 {
+        font-size: 18px;
+    }
+}
